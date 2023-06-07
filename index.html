@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <title>Jonathan Tangpos Portfolio</title>
+    <style type="text/css">
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        font-family: 'Courier Prime', monospace;
+      }
+      .window {
+        border: 1px dashed rgb(12, 174, 52);
+        height: 200px;
+        max-width: 500px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+      }
+      .title {
+        color: rgb(12, 174, 52);
+        border-bottom: 1px dashed rgb(12, 174, 52);
+      }
+      .title p {
+        padding: 0 10px;
+      }
+      .list a{
+        color: rgb(12, 174, 52);
+        text-decoration: none;
+      }
+      .list a:hover{
+        color: #fff;
+      }
+      ul {
+        margin-left: 0;
+        padding-inline-start: 20px;
+      }
+      ul li{
+        margin-bottom: 15px;
+      }
+    </style>
 </head>
 <body>
-    cool the coolest
+    <div class="window">
+      <div class="title">
+        <p>portfolio</p>
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="/cv/"> cv</a></li>
+          <li><a href="/projects/"> projects</a></li>
+        </ul>
+      </div>
+    </div>
 </body>
 </html>
